@@ -2,9 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Flower shop</title>
+    <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <link rel="stylesheet" href="./styles/style.css" />
 </head>
 <body>
-
+    <header class="main-header">
+        <section class="cover">
+            <div class="overlay"></div>
+            <div class="header-wrapper">
+                <h1 class="label">Flows Lavka</h1>
+                <div class="header-actions">
+                    <nav class="header-menu">
+                        <ul class="header__links-list">
+                            <li class="header__links-list-item">
+                                <a class="header_link" href="#">О нас</a>
+                            </li>
+                            <li class="header__links-list-item">
+                                <a class="header_link" href="#">Каталог</a>
+                            </li>
+                            <li class="header__links-list-item">
+                                <a class="header_link" href="#">Мероприятия</a>
+                            </li>
+                            <li class="header__links-list-item">
+                                <a class="header_link" href="#">Контакты</a>
+                            </li>
+                            <li class="header__links-list-item">
+                                <a class="header_link" href="#">Доставка</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="basket">
+                        <img src="images/banner/basket.png" alt="Shopping Basket">
+                    </a>
+                    <button class="button_contact">Cвязаться</button>
+                </div>
+            </div>
+            <div class="block-in-the-middle">
+                <section class="love-creation">
+                    <div style="text-align: center">
+                        <div class="love-wrapper">
+                            <h2 class="love-title">Создаем</h2><div><h3 class="love-changing-the-font">любовь</h3></div>
+                        </div>
+                        <h4 class="love-subtitle">Через цветы</h4>
+                    </div>
+                    <p class="love-description">
+                        Мы находим, создаём и доставляем вам веши свежие, великолепные<br> цветы. С нами можно научиться мастерству флориста и выпить<br> чай на чайной церемонии
+                    </p>
+                    <button class="button_explore">
+                        Перейти в каталог
+                    </button>
+                </section>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <!--Содержимое сайта-->
+        <div class="wrapper-card">
+            <div class="container">
+                <div style="width: 100%; text-align: left; padding-left: 20px;">
+                    <h5 class="subtitle">products</h5>
+                    <h6 class="title">НАШИ ТОВАРЫ</h6>
+                </div>
+                <div class="card-container">
+                    <div class="cards">
+                        <div class="card">
+                            <img src="images/card/card_7.png" alt="Букет дня">
+                            <p class="card-title">БУКЕТ ДНЯ</p>
+                            <p class="price">3 550 ₽</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/card/card_8.png" alt="Букет с вибурнумом и фритилярией">
+                            <p class="card-title">БУКЕТ С ВИБУРНУМОМ И ФРИТИЛЯРИЕЙ</p>
+                            <p class="price">5 500 ₽</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/card/card_9.png" alt="Букет с ароматной розой вайт охара">
+                            <p class="card-title">БУКЕТ С АРОМАТНОЙ РОЗОЙ ВАЙТ ОХАРА</p>
+                            <p class="price">7 000 ₽</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/card/card_10.png" alt="Букет с ароматной розой вайт охара">
+                            <p class="card-title">МИНИАТЮРНЫЙ СПИРАЛЬНЫЙ БУКЕТ В ПАСТЕЛЬНЫХ ТОНАХ</p>
+                            <p class="price">5 000 ₽</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/card/card_11.png" alt="Букет с ароматной розой вайт охара">
+                            <p class="card-title">НЕЖНЫЙ СПИРАЛЬНЫЙ БУКЕТ</p>
+                            <p class="price">3 500 ₽</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/card/card_12.png" alt="Букет с ароматной розой вайт охара">
+                            <p class="card-title">БУКЕТ ЦВЕТОВ СПИРАЛЬ</p>
+                            <p class="price">6 000 ₽</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layout-wrapper">
+            <div class="image-section">
+                <img src="images/image-section/img_3.jpg" alt="Flowers">
+            </div>
+            <div class="mission-section">
+                <div class="text-center">
+                    <div>НАША</div>
+                    <div>МИССИЯ</div>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center; text-align: center; line-height: 25px;">
+                    <p>Мы знаем, как важно каждый день любить,<br> благодарить, радовать и вдохновлять, поэтому наша <br> задача — дать вам простой инструмент, через который <br> легко говорить о чувствах.</p>
+                </div>
+                <p class="signature">С любовью,<br>amour fleur butik</p>
+            </div>
+        </div>
+        <div class="delivery-section">
+            <div style="width: 100%">
+                <p class="small-title">delivery</p>
+                <p class="delivery-title">У НАС ЕСТЬ ДОСТАВКА!</p>
+                <div class="delivery-options">
+                    <div class="shipping-information marker-none" >Доставка курьером <br> по Москве: <span>500 руб.</span></div>
+                    <div class="circle-box">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="shipping-information">Срочная доставка <br> по Москве: <span>+500 руб. к доставке</span></div>
+                    <div class="circle-box">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="shipping-information">В другие города Почтой <br> России: <span>500 руб.</span></div>
+                </div>
+            </div>
+        </div>
+        <section class="container-with-event-content">
+            <div class="overlay"></div>
+            <div class="content">
+                <p class="title-event">МЕРОПРИЯТИЯ</p>
+                <p class="text_event">В нашем пространстве регулярно проходят мастер классы <br> по созданию композиций из свежих и сухих цветов, <br> a так же чаепития травяных чаев и лекции о красоте
+                </p>
+            </div>
+            <div class="bottom-block">
+                <div class="text">
+                    Events
+                </div>
+                <div style="display: flex">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <!--Подвал сайта-->
+        <div class="event-layout">
+            <div class="image-container">
+                <img src="images/bottom-icon/img.png" alt="Фото мастер-класса">
+                <div class="navigation">
+                    <button>&lt;</button>
+                    <button>&gt;</button>
+                </div>
+            </div>
+            <div class="content">
+                <p class="date">30.10.24</p>
+                <div class="title-bottom">Создание нежного <br> весеннего букета <br> из свежих цветов</div>
+                <p class="description">
+                    Групповые занятия — это прекрасный способ сменить <br> обстановку, отвлечься от суеты, провести время <br> в творческом процессе, поднять энергию <br> и познакомиться с людьми. Все занятия проходят <br> в нашем пространстве на «Викторенко 11».
+                </p>
+                <p class="price">5 000 ₽</p>
+                <button class="sign-up">Записаться</button>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
